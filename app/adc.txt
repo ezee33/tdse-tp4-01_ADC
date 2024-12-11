@@ -1,0 +1,7 @@
+El ADC (Conversor Analógico a Digital) convierte señales analógicas (tensiones) a valores digitales. En este caso, las tensiones se toman a la salida de 
+un potenciómetro y se convierten a valores digitales que representan la tensión en el PIN de entrada en un momento dado.
+
+Respecto a la configuración inicial del ADC se menciona que:
+- El modo de conversión regular se encuentra activado.
+- Las conversiones son de un solo canal.
+- Se toma una muestra cada 1 ciclo y medio de clock.
