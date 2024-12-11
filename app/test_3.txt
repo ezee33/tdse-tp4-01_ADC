@@ -1,0 +1,3 @@
+Este tercer test toma muestras mediante interrupciones, lo cual es más eficiente porque libera el procesador mientras espera. Por medio de este, se inicia una 
+conversión en el ADC y cada vez que termina se ejecuta una interrupción y se almacena este valor.
+
