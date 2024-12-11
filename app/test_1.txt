@@ -1,0 +1,5 @@
+En este primer test las muestras se toman secuencialmente mediante polling. Cuando las muestras son tomadas mediante el método de polling, el procesador espera 
+activamente hasta que el ADC termine la conversión. Una vez terminada, se lee el valor convertido. Esto es ineficiente en sistemas donde el tiempo de respuesta
+es crítico pues el procesador no puede realizar otras tareas, es bloqueante.
+El test tiene como propósito capturar y mostrar cada muestra individual obtenida del ADC. Es un enfoque básico para ver los valores que el ADC está leyendo y 
+es útil para las fluctuaciones inmediatas en las mediciones (incluyendo ruido).
