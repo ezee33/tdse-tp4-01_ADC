@@ -1,0 +1,4 @@
+En este segundo test las muestras también se toman mediante polling. Sin embargo, a diferencia del TEST 1 este test calcula y muestra el promedio de un conjunto 
+de muestras antes de pasar al siguiente valor (realiza AVERAGER_SIZE, 16, conversiones por ciclo), lo que reduce el ruido en las mediciones y proporciona un valor 
+más estable y representativo. Por otro lado, tiene la misma desventaja que el test 1, es bloqueante, e incluso más lento pues debe tomar varias muestras para cada 
+valor.
